@@ -1,29 +1,21 @@
-birth_animals = ["pig", "rat", "ox", "tiger", "rabbit", "dragon", "snake", "horse", "goat", "monkey", "rooster", "dog"]
+birth_animals = ["monkey", "rooster", "dog", "pig", "rat", "ox", "tiger", "rabbit", "dragon", "snake", "horse", "goat"]
 
-# puts "Hi there, how are you? What\'s your name?"
-# name = gets.chomp
-# puts "Hello, #{name}! Wanna know more about your Chinese zodiac animal?"
-# puts "Let\'s start with your birth year!"
-# puts
+puts "Hi there, how are you? What\'s your name?"
+name = gets.chomp
+puts "Hello, #{name}! Wanna know more about your Chinese zodiac animal?"
+puts "Let\'s start with your birth year!"
+puts
 puts "In What year were you born?"
 birth_year = gets.chomp.to_i
 age = 2019 - birth_year 
-
 puts "You were born in #{birth_year} so you are #{age} years old this year!"
-
-if age < 0
-    age = age * -1
-else
-    age = age
-end
-
-index = (age % 12) -2
+index = (birth_year % 12)
 puts "Your birth animal is... #{birth_animals[index]}!"
 
-# puts "Now you know what your birth animal is..."
-# puts "Enter your birth animal here to know what birth animals are your best matches!"
-# your_birth_animal = gets.chomp.downcase
-# puts "As a #{your_birth_animal}, your best matchese are #{birth_animals[index]}, #{birth_animals[index + 4]}, #{birth_animals[index + 8]}."
+puts "Now you know what your birth animal is..."
+puts "Enter your birth animal here to know what birth animals are your best matches!"
+your_birth_animal = gets.chomp.downcase
+puts "As a #{your_birth_animal}, your best matchese are #{birth_animals[index]}, #{birth_animals[index + 4]}, #{birth_animals[index + 8]}."
 
 
 
