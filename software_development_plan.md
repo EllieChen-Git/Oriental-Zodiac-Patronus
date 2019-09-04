@@ -1,5 +1,6 @@
 # Software Development Plan –  Oriental Zodiac Patronus
 
+
 ### <u>Statement of Purpose and Scope</u>
     The purpose of Oriental Zodiac Patronus is to promote the idea of Chinese zodiac animals to users who either are not familiar with or have never heard of the Chinese horoscopes. This application also serves as a fun and interactive game for people to play around with their Chinese zodiac animals. 
 
@@ -13,6 +14,7 @@
         •	People who would like to introduce the concept of Chinese zodiac animals to people around them, where this application can be used as an excellent demonstration.
 
     This terminal application was written in Ruby and incorporated with a Ruby Gem ‘Colorize’ to display text in colours other than the regular white text CLI commands.
+
 
 ### <u>Features</u>
     There are three major features of Oriental Zodiac Patronus:
@@ -31,3 +33,44 @@
     
     There is an optional customised welcome message with the implementation of ‘ARGV. If users choose to enter their name when they try to run Oriental Zodiac Patronus in the terminal, they will be greeted with their names. Otherwise, only a generic ‘hi’ message will display. 
     Users can also choose to play Oriental Zodiac Patronus (Option 1, 2, 3) multiple times in any order until they decide to exit the program with Option 0. This is done through a while loop. A friendly reminder is placed at the end of the while loop so users will receive a warning message if they input is invalid (i.e. anything other than 0, 1, 2, 3).
+
+
+### <u>User Interaction and Experience</u>
+
+    Oriental Zodiac Patronus was designed for optimised user interface and experience. Once users start the app, it will retrieve their local time and greet them with different greetings depending on the time of the day. This helped personalise user’s experience with Oriental Zodiac Patronus.
+
+    ------
+
+    Your current login time is 23:25 04/09/2019
+    Good evening!
+
+    ------
+
+    In the welcome message, a Ruby Gem ‘Colorize’ was utilised to display each line of the message in different colours, and a ‘sleep’ method was implemented to create a 1-second timeout to make this section more vibrant.  
+
+
+    The menu section was displayed after the welcome message and users can choose the options with minimal entries (only number 0, 1, 2, 3), which provided a smooth user interface. The simplicity of the menu design avoided any confusion or hard-to-follow instructions, and therefore enhanced users’ experience when interacting with the app. A friendly reminder was also placed here to advise users only go straight to option 2 and 3 when they know their Chinese zodiac animal in advance.
+
+    If users choose option 1, the program will ask them for their birth year. To prevent any invalid entry, there was a year format reminder ‘yyyy’ in the message to advise users not to input years with only 2 digits or in any other formats. With Feature 1, the program will display users’ age and their Chinese zodiac animal.
+
+    If users choose option 2, the program will ask them for their Chinese zodiac animal. With Feature 2, the program will display users’ best matches and their major conflict.
+
+    If users choose option 3, the program will ask them for their Chinese zodiac animal. With Feature 3, the program will predict users’ luck in 2020 through the Tai Sui test. Here the program also displayed a brief description about the ideas of ‘Tai Sui’ and ‘Fan Tai Shi’ in Taoism and how these would affect a person’s luck in the coming year. This helped to improve users’ understanding about Chinese zodiac animals and therefore enhanced their experience with Oriental Zodiac Patronus. There was also a tip provided if users’ zodiac animal will clash with ‘Tai Sui’ in 2020, which was handy for users to avoid bad luck. 
+
+
+### <u>Control Flow Diagram</u>
+
+Please refer to the diagram on GitHub: https://github.com/EllieChen-Git/terminal_app/blob/master/control_flow_diagram.JPG
+
+
+### <u>Implementation Plan</u>
+
+Please refer to the document on GitHub: https://github.com/EllieChen-Git/terminal_app/blob/master/implementation_plan.docx
+
+
+### <u>Status Updatees/ Development Log</u>
+(to be added soon)
+
+
+
+Ellie Chen @2019
