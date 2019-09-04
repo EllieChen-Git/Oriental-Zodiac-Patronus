@@ -13,3 +13,21 @@
         •	People who would like to introduce the concept of Chinese zodiac animals to people around them, where this application can be used as an excellent demonstration.
 
     This terminal application was written in Ruby and incorporated with a Ruby Gem ‘Colorize’ to display text in colours other than the regular white text CLI commands.
+
+### <u>Features</u>
+    There are three major features of Oriental Zodiac Patronus:
+
+    •	Feature 1 ‘Zodiac Animal Test’ - Enter birth year and receive your Chinese zodiac animal
+    This feature starts with a prompt to ask users for their birth year. This is a year format reminder ‘yyyy’ in the message to remind users not to input years with only 2 digits or in any other formats. With this input, the program will (1) calculate the user’s age by the ‘age’ variable (‘age’ equals to 2019 minus the birth year) and (2) produce the user’s zodiac animal index number by the variable ‘index’, which is done through the modulus of 12 (as there are 12 Chinese zodiac animals). The ‘index’ variable will later be used to retrieve users’ zodiac animal from the ‘zodiac_animals’ array to display the zodiac animal on the screen.
+
+    •	Feature 2 ‘Animal Compatibility Test’ - Enter your zodiac animal to see your zodiac animal compatibility  (best matches & major conflict)    
+    This  feature asks users to enter their ‘Chinese zodiac animal’. With this input, the program is able to retrieve the variable ‘index_2’ of the ‘zodiac_animals’ array. With ‘index_2’, it can then show users they best matches (3 zodiac animals) and their major conflict (1 zodiac animal). There are two if statements involved as the index numbers cannot be larger than 11 (they should be in the range from 0 to 11).  
+
+    •	Feature 3 ‘Luck Prediction in 2020: Tai Sui Test’ - Enter your zodiac animal to predict your luck in 2020
+    
+    This  feature asks users to enter their ‘Chinese zodiac animal’. With this input, the program is able to determine whether that zodiac animal will clash with Tai Sui in 2020, using an if/else statement.
+
+    •	Other minor features
+    
+    There is an optional customised welcome message with the implementation of ‘ARGV. If users choose to enter their name when they try to run Oriental Zodiac Patronus in the terminal, they will be greeted with their names. Otherwise, only a generic ‘hi’ message will display. 
+    Users can also choose to play Oriental Zodiac Patronus (Option 1, 2, 3) multiple times in any order until they decide to exit the program with Option 0. This is done through a while loop. A friendly reminder is placed at the end of the while loop so users will receive a warning message if they input is invalid (i.e. anything other than 0, 1, 2, 3).
