@@ -1,35 +1,35 @@
 require "colorize"
 
 # zodiac_animals = ["monkey0", "rooster1", "dog2", "pig3", "rat4", "ox5", "tiger6", "rabbit7", "dragon8", "snake9", "horse10", "goat11"]
-zodiac_animals = ["monkey 猴", "rooster", "dog", "pig", "rat", "ox", "tiger", "rabbit", "dragon", "snake", "horse", "goat"]
+zodiac_animals = ["monkey", "rooster", "dog", "pig", "rat", "ox", "tiger", "rabbit", "dragon", "snake", "horse", "goat"]
 
 
 #[Welcome Message]
-puts "Hi #{ARGV[0]}~ Welcome to Patronus - Your Oriental Zodiac Animal *\\(^ o ^)/*".colorize(:magenta)
+puts "Hi #{ARGV[0]}~ Welcome to Oriental Zodiac Patronus *\\(^ o ^)/*".colorize(:yellow)
 ARGV .clear
 sleep(1)
-puts "This app helps you find your Chinese zodiac animal.".colorize(:light_blue)
+puts "This app helps you find your Chinese zodiac animal.".colorize(:magenta)
 sleep(1)
-puts "You can also use it to see what zodiac animals are your best matachs o(= v =)o and your worst enemy too o(T___T)o".colorize(:green)
+puts "You can also use it to see what zodiac animals are your best matches o(= v =)o and your worst enemy too o(T___T)o".colorize(:green)
 sleep(1)  
-puts "It can also perdict your luck in 2020 for you.".colorize(:red)
+puts "It can also predict your luck in 2020 for you."
 sleep(1)
-puts "Can\'t wait to explore it? Let\'s get started!!!".colorize(:yellow)
+puts "Can\'t wait to explore it? Let\'s get started!!!".colorize(:red)
 sleep(1.5)
 puts
 puts "Please select your options here:"
-puts "[0 - Exit || 1: Find out your zodiac animal || 2: Find out your animal compatibility || 3: Lucky 2020?]"
-puts "[Only select 2 or 3 if you know your zodiac animal beforehand]"
-
+puts "[0: Exit || 1: Discover Your Zodiac Animal || 2: Animal Compatibility Test || 3: Luck Prediction in 2020]"
+puts "[Only select 2 or 3 if you know your zodiac animal ^ ^ ]"
+puts
 option = gets.chomp
 
 while option != "0"
 
-#[Option 1 - What is your zodiac animal?]
+#[Option 1 - Zodiac Animal Test]
     if option == "1"
-    puts "Wanna know more about your Chinese zodiac animal?"
+    puts "Alrighty! It seems like you wanna know more about your Chinese zodiac animal!"
     puts
-    puts "Let\'s start with your birth year! In what year were you born?"
+    puts "Let\'s start with your birth year! In what year were you born? (yyyy)"
     birth_year = gets.chomp.to_i
     age = 2019 - birth_year 
     puts "You were born in #{birth_year}, so you are #{age} years old!"
@@ -37,8 +37,7 @@ while option != "0"
     index = (birth_year % 12)
     puts "And your Chinese zodiac animal is..."
     sleep(1)
-    puts "...#{zodiac_animals[index]}!!! That\'s a cool animal, isn\'t it? \(^ V ^)/"
-    puts
+    puts "...#{zodiac_animals[index]}!!! That\'s a cool animal, isn\'t it? (^ V ^)/"
     sleep(1)
     animal = zodiac_animals[index]
     puts "This also means you are..."
@@ -69,9 +68,11 @@ while option != "0"
     else
         puts "optimistic, emotional, sightless!"
     end
+    puts
+    sleep(1)
         
 
-    #[Option 2 - What is your zodiac animal compatibility?]
+    #[Option 2 - Animal Compatibility Test]
     elsif option == "2"
     puts
     puts "Let\'s find out your zodiac animal compatibility!"
@@ -88,23 +89,21 @@ while option != "0"
             index_4 = index_4 -12
         end
     puts "As a #{your_zodiac_animal}, you are best with #{your_zodiac_animal}, #{zodiac_animals[index_3]} and #{zodiac_animals[index_4]}..."
-    puts
-    
     sleep(1)
     index_5 = index_2 + 6
         if index_5 > 10
             index_5= index_5 - 12
         end
     puts "but as it seems like you don\'t get along with #{zodiac_animals[index_5]}!"
-    sleep(2)
-    puts 
+    sleep(1)
 
-    #[Option 3 - Tai Sui Test]
+
+    #[Option 3 - Luck Prediction in 2020: Tai Sui Test]
     elsif option == "3"
-    puts "In Taoism, \'Fan Tai Sui\' (offending the God of \'Tai Sui\') means people’s zodiac animal conflicts with the \'Tai Sui\'"
-    puts "(the Grand Commander of that Year) and therefore will encounter misfortunes and bad luck for the whole year."
-    sleep(2)
-    puts "Do you wanna perdict your luck for the coming 2020? If yes, enter your zodiac animal here."
+    puts "In Taoism, \'Fan Tai Sui\' (offending the God of \'Tai Sui\') means people’s zodiac animal conflicts with \'Tai Sui\' (the Grand Commander of that Year) and therefore will encounter misfortunes and bad luck for the whole year."
+    puts
+    sleep(1.5)
+    puts "Do you wanna predict your luck for the coming 2020? If yes, enter your zodiac animal here."
     puts "(rat, ox, tiger, rabbit, dragon, snake, horse, goat, monkey, rooster, dog, pig)"
     your_zodiac_animals = gets.chomp
         if your_zodiac_animal == ("rat" or "rabbit" or "horse" or "goat")
@@ -112,14 +111,16 @@ while option != "0"
             puts "Another tip is wearing red!"
             puts "All the best!"
         else
-            puts "Congrats! Your zodiac animal will not clash with Tai Sui in 2020! Have a nice year ahead! (*￣▽￣)/~★★★★★"
+            puts "Congrats! Your zodiac animal will not clash with Tai Sui in 2020! Have a nice year ahead Y(0 v 0)Y"
         end
     end
+    puts
+    sleep(1)
 
-        #[Saying Goodbye]
-        puts "Please choose from 1, 2, 3 if you want to continue playing. Or you can press 0 to leave this app."  
-        option = gets.chomp
-
+#[Continue or Stay Message]
+puts "Please choose from 1, 2, 3 if you want to continue playing. Or you can press 0 to leave this app."  
+option = gets.chomp
 end
 
+#[Goodbye Message]
 puts "Thank you for using Chinese zodiac animal app! Hope to see you again soon~"
