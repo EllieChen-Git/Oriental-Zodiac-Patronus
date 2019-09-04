@@ -1,20 +1,25 @@
+require "colorize"
+
 # zodiac_animals = ["monkey0", "rooster1", "dog2", "pig3", "rat4", "ox5", "tiger6", "rabbit7", "dragon8", "snake9", "horse10", "goat11"]
-zodiac_animals = ["monkey", "rooster", "dog", "pig", "rat", "ox", "tiger", "rabbit", "dragon", "snake", "horse", "goat"]
+zodiac_animals = ["monkey 猴", "rooster", "dog", "pig", "rat", "ox", "tiger", "rabbit", "dragon", "snake", "horse", "goat"]
 
 
 #[Welcome Message]
-puts "Hi #{ARGV[0]}~ Welcome to Chinese Zodiac Animals *'\\(^0^)/*"
+puts "Hi #{ARGV[0]}~ Welcome to Patronus - Your Oriental Zodiac Animal *\\(^ o ^)/*".colorize(:magenta)
 ARGV .clear
 sleep(1)
-puts "This app helps you find your Chinese zodiac animal."
-puts "You can also use this app to know what zodiac animals are your best matachs (and your worst enemy as well ╰(T__T)╯)."
-puts "The app will also perdict your luck in 2020 for you."
-puts "Can\'t wait to explore it? Let\'s get started!"
+puts "This app helps you find your Chinese zodiac animal.".colorize(:light_blue)
 sleep(1)
+puts "You can also use it to see what zodiac animals are your best matachs o(= v =)o and your worst enemy too o(T___T)o".colorize(:green)
+sleep(1)  
+puts "It can also perdict your luck in 2020 for you.".colorize(:red)
+sleep(1)
+puts "Can\'t wait to explore it? Let\'s get started!!!".colorize(:yellow)
+sleep(1.5)
 puts
-puts "Please select your options here "
-puts "(0: Exit the app || 1: Find out your zodiac animal || 2: Find out your animal compatibility || 3: Will you be in good luck in 2020?)"
-puts "(Only select Option 2 and 3 when you know your zodiac animal)"
+puts "Please select your options here:"
+puts "[0 - Exit || 1: Find out your zodiac animal || 2: Find out your animal compatibility || 3: Lucky 2020?]"
+puts "[Only select 2 or 3 if you know your zodiac animal beforehand]"
 
 option = gets.chomp
 
