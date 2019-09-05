@@ -1,12 +1,12 @@
 # GitHub
 
-Feel free to check this project out on GitHub: [Oriental Zodiac Patronus - GitHub](https://github.com/EllieChen-Git/terminal_app)
+Pleas feel free to check this project out on GitHub: [Oriental Zodiac Patronus - GitHub](https://github.com/EllieChen-Git/terminal_app)
 
 ------
 
 # Help
 
-##### <u>Steps to Install Oriental Zodiac Patronus</u>
+##### <u>How to Install Oriental Zodiac Patronus</u>
 Oriental Zodiac Patronus is a CLI application written in Ruby, which could be easily run on the command line. The whole program can be downloaded from GitHub (https://github.com/EllieChen-Git/terminal_app). 
 
 ##### <u>Dependencies required by Oriental Zodiac Patronus</u>
@@ -43,7 +43,7 @@ This terminal application was written in Ruby and incorporated with a Ruby Gem �
 
 Below are the features of Oriental Zodiac Patronus:
 
-- ##### <u>Feature 1 ‘Zodiac Animal Test’ - Enter birth year and receive your Chinese zodiac animal</u>
+- ##### <u>Feature 1 ‘Chinese Zodiac Animal Test’ - Enter birth year and receive your Chinese zodiac animal</u>
 This feature starts with a prompt to ask users for their birth year. This is a year format reminder ‘yyyy’ in the message to remind users not to input years with only 2 digits or in any other formats. With this input, the program will (1) calculate the user’s age by the ‘age’ variable (‘age’ equals to 2019 minus the birth year) and (2) produce the user’s zodiac animal index number by the variable ‘index’, which is done through the modulus of 12 (as there are 12 Chinese zodiac animals). The ‘index’ variable will later be used to retrieve users’ zodiac animal from the ‘zodiac_animals’ array to display the zodiac animal on the screen.
 
 - ##### <u>Feature 2 ‘Animal Compatibility Test’ - Enter your zodiac animal to see your zodiac animal compatibility (best matches & major conflict)</u>  

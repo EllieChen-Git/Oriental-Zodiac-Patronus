@@ -19,8 +19,3 @@ def login_time
     puts "Your current login time is #{Time.now.strftime("%H:%M %d/%m/%Y")}" 
 end
 
-def text_effect
-    a = Artii::Base.new
-    a.asciify('word')
-end
-
