@@ -2,6 +2,10 @@ def time
     time = Time.new
 end
 
+def login_time
+    puts "Your current login time is #{Time.now.strftime("%H:%M %d/%m/%Y")}" 
+end
+
 def greeting
     morning = 1..12
     afternoon = 13..16
@@ -15,7 +19,4 @@ def greeting
         end
 end
 
-def login_time
-    puts "Your current login time is #{Time.now.strftime("%H:%M %d/%m/%Y")}" 
-end
 

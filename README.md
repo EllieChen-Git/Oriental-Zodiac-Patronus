@@ -1,24 +1,24 @@
 # GitHub
 
-Pleas feel free to check this project out on GitHub: [Oriental Zodiac Patronus - GitHub](https://github.com/EllieChen-Git/terminal_app)
+Pleas feel free to check out this project on GitHub: [Oriental Zodiac Patronus - GitHub](https://github.com/EllieChen-Git/terminal_app)
 
 ------
 
 # Help
 
 ##### <u>How to Install Oriental Zodiac Patronus</u>
-Oriental Zodiac Patronus is a CLI application written in Ruby, which could be easily run on the command line. The whole program can be downloaded from GitHub (https://github.com/EllieChen-Git/terminal_app). 
+Oriental Zodiac Patronus is a CLI application written in Ruby, which could be easily run on the command line. The whole program can be downloaded from GitHub (https://github.com/EllieChen-Git/terminal_app).
 
 ##### <u>Dependencies required by Oriental Zodiac Patronus</u>
-Before you start running Oriental Zodiac Patronus, you may wish to install Ruby Gem ‘colorize’ and 'artii' for better user experience. This can be simply done by enter ‘gem install colorize’ and ‘gem install artii’ on your command line.
+Before you start running Oriental Zodiac Patronus, you may wish to install Ruby Gems ‘colorize’ and 'artii' for better user experience. This can be simply done by enter ‘gem install colorize’ and ‘gem install artii’ on your command line.
 
 ##### <u>System/Hardware Requirements</u>
 There is no specific system/hardware requirement for this application.
 
 ##### <u>Features of Oriental Zodiac Patronus</u>
-- Feature 1 - Enter your birth year and receive your Chinese zodiac animal
-- Feature 2 - Enter your zodiac animal to see your zodiac animal compatibility (best matches & major conflict)
-- Feature 3 - Enter your zodiac animal to predict your luck in 2020
+- Feature 1 ‘Chinese Zodiac Animal Test’ - Enter birth year and receive your Chinese zodiac animal
+- Feature 2 ‘Animal Compatibility Test’ - Enter your zodiac animal to see your best & worst animal matches
+- Feature 3 ‘Luck Prediction in 2020: Tai Sui Test’ - Enter your zodiac animal to predict your luck in 2020
 
 
 ------
@@ -46,7 +46,7 @@ Below are the features of Oriental Zodiac Patronus:
 - ##### <u>Feature 1 ‘Chinese Zodiac Animal Test’ - Enter birth year and receive your Chinese zodiac animal</u>
 This feature starts with a prompt to ask users for their birth year. This is a year format reminder ‘yyyy’ in the message to remind users not to input years with only 2 digits or in any other formats. With this input, the program will (1) calculate the user’s age by the ‘age’ variable (‘age’ equals to 2019 minus the birth year) and (2) produce the user’s zodiac animal index number by the variable ‘index’, which is done through the modulus of 12 (as there are 12 Chinese zodiac animals). The ‘index’ variable will later be used to retrieve users’ zodiac animal from the ‘zodiac_animals’ array to display the zodiac animal on the screen.
 
-- ##### <u>Feature 2 ‘Animal Compatibility Test’ - Enter your zodiac animal to see your zodiac animal compatibility (best matches & major conflict)</u>  
+- ##### <u>Feature 2 ‘Animal Compatibility Test’ - Enter your zodiac animal to see your best & worst animal matches</u>  
 This feature asks users to enter their ‘Chinese zodiac animal’. With this input, the program is able to retrieve the variable ‘index_2’ of the ‘zodiac_animals’ array. With ‘index_2’, it can then show users they best matches (3 zodiac animals) and their major conflict (1 zodiac animal). There are two if statements involved as the index numbers cannot be larger than 11 (they should be in the range from 0 to 11).  
 
 - ##### <u>Feature 3 ‘Luck Prediction in 2020: Tai Sui Test’ - Enter your zodiac animal to predict your luck in 2020</u>  
@@ -85,9 +85,13 @@ The above diagram can also be found on GitHub: [Oriental Zodiac Patronus - Contr
 ------
 # Implementation Plan
 
+The complete document with daily Trello screenshots attached can be found on GitHub: [Oriental Zodiac Patronus - Implementation Plan](https://github.com/EllieChen-Git/terminal_app/blob/master/implementation_plan.docx)
+
+Also refer to Trello board for deadlines of each checklist items: [Oriental Zodiac Patronus - Trello board](https://trello.com/b/0OZdEWPF/oriental-zodiac-patronus)
+
 | Features                                     | Checklists for Each Feature                                                                    | Priority Level| Estimated Duration|
 | ---------------------------------------------| -----------------------------------------------------------------------------------------------| ------------- | ----------------- |
-| <u>Feature 1 - Zodiac Animal Test</u>        |                                                                                                |               |                   |
+| <u>Feature 1 - Chinese Zodiac Animal Test</u>|                                                                                                |               |                   |
 |                                              | 1. Ensuring if user selects option 1, the Feature 1 will run                                   | Medium        | 5 mins            |
 |                                              | 2. Getting user input (birth year) and calculating user’s age (using ‘2019 - birth year’)      | Medium        | 5 mins            | 
 |                                              | 3. Setting the 'Chinese zodiac animals' array in correct order                                 | High          | 15 mins           |
@@ -106,9 +110,8 @@ The above diagram can also be found on GitHub: [Oriental Zodiac Patronus - Contr
 |                                              | 4. Setting up the animals that will clash with ‘Tai Sui’ in 2020, and those don’t              | High          | 5 mins            |                                  
 |                                              | 5. Writing message for both animal groups                                                      | Law           | 10 mins           |      
 
-A more detailed document can be found on GitHub: [Oriental Zodiac Patronus - Implementation Plan](https://github.com/EllieChen-Git/terminal_app/blob/master/implementation_plan.docx)
 
-Also refer to Trello board for more deadlines for each checklist items: [Oriental Zodiac Patronus - Trello board](https://trello.com/b/0OZdEWPF/oriental-zodiac-patronus)
+
 
 ------
 # Status Updates/Development Log
@@ -124,6 +127,6 @@ My goal today was to complete help file, spelling check and slides for presentat
 
 # Application Testing
 
-The complete testing procedure and cases can be found here: [Oriental Zodiac Patronus - Application Testing](https://github.com/EllieChen-Git/terminal_app/blob/master/manual_testing_log.xlsx)
+The complete testing procedure and cases can be found on GitHub: [Oriental Zodiac Patronus - Application Testing](https://github.com/EllieChen-Git/terminal_app/blob/master/manual_testing_log.xlsx)
 
 Ellie Chen @2019
