@@ -1,5 +1,8 @@
-# Software Development Plan – Oriental Zodiac Patronus
+# Help
+
 ------
+# Software Development Plan – Oriental Zodiac Patronus
+
 ### <u>Statement of Purpose and Scope</u>
 The purpose of Oriental Zodiac Patronus is to promote the idea of Chinese zodiac animals to users who either are not familiar with or have never heard of the Chinese horoscopes. This application also serves as a fun and interactive game for people to play around with their Chinese zodiac animals. 
 
@@ -14,7 +17,7 @@ The target audience for this application are:
 
 This terminal application was written in Ruby and incorporated with a Ruby Gem ‘Colorize’ to display text in colours other than the regular white text CLI commands.
 
-------
+
 ### <u>Features</u>
 
 Below are the features of Oriental Zodiac Patronus:
@@ -32,7 +35,7 @@ This feature asks users to enter their ‘Chinese zodiac animal’. With this in
 There is an optional customised welcome message with the implementation of ‘ARGV. If users choose to enter their name when they try to run Oriental Zodiac Patronus in the terminal, they will be greeted with their names. Otherwise, only a generic ‘hi’ message will display. 
 Users can also choose to play Oriental Zodiac Patronus (Option 1, 2, 3) multiple times in any order until they decide to exit the program with Option 0. This is done through a while loop. A friendly reminder is placed at the end of the while loop so users will receive a warning message if they input is invalid (i.e. anything other than 0, 1, 2, 3).
 
-------
+
 ### <u>User Interaction and Experience</u>
 
 Oriental Zodiac Patronus was designed for optimised user interface and experience. Once users start the app, it will retrieve their local time and greet them with different greetings depending on the time of the day. This helped personalise user’s experience with Oriental Zodiac Patronus.
@@ -51,21 +54,20 @@ If users choose option 2, the program will ask them for their Chinese zodiac ani
 
 If users choose option 3, the program will ask them for their Chinese zodiac animal. With Feature 3, the program will predict users’ luck in 2020 through the Tai Sui test. Here the program also displayed a brief description about the ideas of ‘Tai Sui’ and ‘Fan Tai Shi’ in Taoism and how these would affect a person’s luck in the coming year. This helped to improve users’ understanding about Chinese zodiac animals and therefore enhanced their experience with Oriental Zodiac Patronus. There was also a tip provided if users’ zodiac animal will clash with ‘Tai Sui’ in 2020, which was handy for users to avoid bad luck. 
 
-------
+
 ### <u>Control Flow Diagram</u>
 
-The below diagram can also be found on GitHub: [Control Flow Diagram](https://github.com/EllieChen-Git/terminal_app/blob/master/control_flow_diagram.JPG)
+The below diagram can also be found on GitHub: [Oriental Zodiac Patronus - Control Flow Diagram](https://github.com/EllieChen-Git/terminal_app/blob/master/control_flow_diagram.JPG)
 
 ![Control Flow Diagram](control_flow_diagram.JPG)
 
-
-
-
 ------
-### <u>Implementation Plan</u>
-The complete document can be found on GitHub: [Implementation Plan](https://github.com/EllieChen-Git/terminal_app/blob/master/implementation_plan.docx)
+# Implementation Plan
 
-Also refer to Trello board for more detailed deadlines for each checklist items: [Oriental Zodiac Patronus](https://trello.com/b/0OZdEWPF/oriental-zodiac-patronus)
+
+The complete document can be found on GitHub: [Oriental Zodiac Patronus - Implementation Plan](https://github.com/EllieChen-Git/terminal_app/blob/master/implementation_plan.docx)
+
+Also refer to Trello board for more detailed deadlines for each checklist items: [Oriental Zodiac Patronus - Trello board](https://trello.com/b/0OZdEWPF/oriental-zodiac-patronus)
 
 | Features                                     | Checklists for Each Feature                                                                    | Priority Level| Estimated Duration|
 | ---------------------------------------------| -----------------------------------------------------------------------------------------------| ------------- | ----------------- |
@@ -88,8 +90,9 @@ Also refer to Trello board for more detailed deadlines for each checklist items:
 |                                              | 4. Setting up the animals that will clash with ‘Tai Sui’ in 2020, and those don’t              | High          | 5 mins            |                                  
 |                                              | 5. Writing message for both animal groups                                                      | Law           | 10 mins           |      
 
+
 ------
-### <u>Status Updates/ Development Log</u>
+# Status Updates/Development Log
 
 - ##### <u>03-09-2019 Status Update 1 – Coding</u>
 First day of working on my first project at the bootcamp, felt a bit lost with the assessment criteria as it seemed like a lot for a single terminal application. I decided to take my time breaking down each requirement and I did feel much better after I did so. 
