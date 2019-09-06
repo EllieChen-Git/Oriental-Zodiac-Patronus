@@ -1,4 +1,3 @@
-begin
 require "colorize"
 require "artii"
 require_relative "./methods"   
@@ -122,7 +121,6 @@ while option != "0"
     puts "... but it seems like you don\'t get along with #{zodiac_animals[index_5]}! Better to avoid them lol"
     sleep(1)
 
-
 #[Option 3 - Luck Prediction in 2020: Tai Sui Test]
     elsif option == "3"
     puts "<<Luck Prediction in 2020: Tai Sui Test>>".colorize(:light_yellow)
@@ -132,7 +130,6 @@ while option != "0"
     sleep(2)
     puts "Do you wanna predict your luck for the coming 2020? If yes, enter your zodiac animal here."
     puts "(Please only select from rat, ox, tiger, rabbit, dragon, snake, horse, goat, monkey, rooster, dog, pig)"
-
         your_zodiac_animal = gets.chomp.downcase.delete(" ")
         if (your_zodiac_animal == zodiac_animals[4]) or (your_zodiac_animal == zodiac_animals[7]) or (your_zodiac_animal == zodiac_animals[10]) or (your_zodiac_animal == zodiac_animals[11])
             puts
@@ -144,6 +141,7 @@ while option != "0"
             puts "Congrats! Your zodiac animal will not clash with Tai Sui in 2020! Have a nice year ahead Y(0 v 0)Y"
         end
     end
+
     sleep(1)
 
 #[Continue or Stay Message]
@@ -155,6 +153,3 @@ end
 
 #[Goodbye Message]
 puts "Thank you for using Oriental Zodiac Patronus! Hope to see you again soon~"
-
-rescue
-end

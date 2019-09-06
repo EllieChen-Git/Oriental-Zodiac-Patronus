@@ -7,18 +7,18 @@ Pleas feel free to check out this project on GitHub: [Oriental Zodiac Patronus -
 
 # Help
 
-##### <u>How to Install & Use Oriental Zodiac Patronus</u>
+#### <u>How to Install & Use Oriental Zodiac Patronus</u>
 Oriental Zodiac Patronus is a CLI application written in Ruby, which could be easily run on the command line. The whole program can be downloaded from GitHub (https://github.com/EllieChen-Git/terminal_app).
 
-Users has the flexibility to receive a customised welcome message if they choose to enter their name when they try to run Oriental Zodiac Patronus in the terminal, e.g. 'ruby index.rb <u>user</u>'. Alternatively, a generic 'hi' message will display if there is no specific username input. 
+Users has the flexibility to receive a customised welcome message if they choose to enter their name when they try to run Oriental Zodiac Patronus in the terminal, e.g. 'ruby index.rb <strong>user</strong>'. Alternatively, a generic 'hi' message will display if there is no specific username input. 
 
-##### <u>Dependencies required by Oriental Zodiac Patronus</u>
+#### <u>Dependencies required by Oriental Zodiac Patronus</u>
 Before you start running Oriental Zodiac Patronus, you may wish to install Ruby Gems 'colorize' and 'artii' for better user experience. This can be simply done by enter 'gem install colorize' and 'gem install artii' on your command line.
 
-##### <u>System/Hardware Requirements</u>
+#### <u>System/Hardware Requirements</u>
 There is no specific system/hardware requirement for this application.
 
-##### <u>Features of Oriental Zodiac Patronus</u>
+#### <u>Features of Oriental Zodiac Patronus</u>
 - Feature 1 'Chinese Zodiac Animal Test' - Enter birth year and receive your Chinese zodiac animal
 - Feature 2 'Animal Compatibility Test' - Enter your zodiac animal to see your best & worst animal matches
 - Feature 3 'Luck Prediction in 2020: Tai Sui Test' - Enter your zodiac animal to predict your luck in 2020
@@ -27,7 +27,7 @@ There is no specific system/hardware requirement for this application.
 ------
 # Software Development Plan – Oriental Zodiac Patronus
 
-### <u>Statement of Purpose and Scope</u>
+#### <u>Statement of Purpose and Scope</u>
 The purpose of Oriental Zodiac Patronus is to promote the idea of Chinese zodiac animals to users who either are not familiar with or have never heard of the Chinese horoscope. This application also serves as a fun and interactive game for people to play with their Chinese zodiac animals. 
 
 The first option 'Chinese Zodiac Animal Test' provided by Oriental Zodiac Patronus is that users can check their Chinese zodiac animals by simply entering their birth years. After receiving the information from users, this CLI application will show users their current age and a brief description of their zodiac animals. The second option is 'Animal Compatibility Test', where users can use their zodiac animals as a reference to find out their animal compatibility, i.e. their best and worst matches. The third option 'Luck Prediction in 2020: Tai Sui Test' serves as an oriental fortune teller. With this option, users are able to use their zodiac animals to predict their luck in 2020, based on a Taoist concept 'Tai Sui' from the antient China. 
@@ -40,7 +40,7 @@ The target audience groups for this application are:
 - People who would like to introduce the concept of Chinese zodiac animals to people around them, where this application can be used as an excellent demonstration.
 
 
-### <u>Features</u>
+#### <u>Features</u>
 
 Below are the features of Oriental Zodiac Patronus:
 
@@ -53,13 +53,13 @@ This feature asks users to enter their 'Chinese zodiac animal'. With this input,
 - ##### <u>Feature 3 'Luck Prediction in 2020: Tai Sui Test' - Enter your zodiac animal to predict your luck in 2020</u>  
 This feature asks users to enter their 'Chinese zodiac animal'. With this input, the program is able to determine whether that zodiac animal will clash with Tai Sui in 2020, using an if/else statement.
 
-- ##### <u>Other minor features</u>  
+- ##### <u>Other features: Customised Welcome Message & Stay/Leave Option</u>  
 There is an optional customised welcome message with the implementation of 'ARGV'. If users choose to enter their name when they try to run Oriental Zodiac Patronus in the terminal, they will be greeted with their names. Otherwise, only a generic 'hi' message will display. 
 
 Users can also choose to play Oriental Zodiac Patronus (Option 1, 2, 3) multiple times in any order until they decide to exit the program with Option 0. This is done through a while loop. A friendly reminder is placed at the end of the while loop so users will receive a warning message if they input is invalid (i.e. anything other than 0, 1, 2, 3).
 
 
-### <u>User Interaction and Experience</u>
+#### <u>User Interaction and Experience</u>
 
 Oriental Zodiac Patronus was designed for the optimised user interface and experience. Once users start the app, it will retrieve their local time and greet them with different greetings depending on the time of the day. This helped personalise the user experience with Oriental Zodiac Patronus.
 
@@ -77,7 +77,7 @@ If users choose option 2, the program will ask them for their Chinese zodiac ani
 If users choose option 3, the program will ask them for their Chinese zodiac animal. With Feature 3, the program will predict users' luck in 2020 through the Tai Sui test. Here the program also displayed a brief description about the ideas of 'Tai Sui' and 'Fan Tai Shi' in Taoism, and how these would affect a person's luck in the coming year. This helped to improve users' understanding about Chinese zodiac animals and therefore enhanced their experience with Oriental Zodiac Patronus. There was also a tip provided if users' zodiac animal will clash with 'Tai Sui' in 2020, which was handy for users to avoid bad luck. 
 
 
-### <u>Control Flow Diagram</u>
+# Control Flow Diagram
 
 The below diagram can also be found on GitHub: [Oriental Zodiac Patronus - Control Flow Diagram](https://github.com/EllieChen-Git/terminal_app/blob/master/control_flow_diagram.JPG)
 
@@ -87,9 +87,11 @@ The below diagram can also be found on GitHub: [Oriental Zodiac Patronus - Contr
 ------
 # Implementation Plan
 
-The complete document with daily Trello screenshots attached can be found on GitHub: [Oriental Zodiac Patronus - Implementation Plan](https://github.com/EllieChen-Git/terminal_app/blob/master/implementation_plan.docx)
+The complete document with <strong>daily Trello screenshots (project managment process)</strong> can be found on GitHub: [Oriental Zodiac Patronus - Implementation Plan](https://github.com/EllieChen-Git/terminal_app/blob/master/implementation_plan.docx)
 
-Also refer to Trello board for deadlines of each checklist items: [Oriental Zodiac Patronus - Trello board](https://trello.com/b/0OZdEWPF/oriental-zodiac-patronus)
+Also refer to <strong>Trello board</strong> for <strong>deadlines</strong> of each checklist items: [Oriental Zodiac Patronus - Trello board](https://trello.com/b/0OZdEWPF/oriental-zodiac-patronus)
+
+Below is a simplified version for better readability on GitHub:
 
 | Features                                     | Checklists for Each Feature                                                                    | Priority Level| Estimated Duration|
 | ---------------------------------------------| -----------------------------------------------------------------------------------------------| ------------- | ----------------- |
