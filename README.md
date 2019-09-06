@@ -10,7 +10,7 @@ Pleas feel free to check out this project on GitHub: [Oriental Zodiac Patronus -
 #### <u>How to Install & Use Oriental Zodiac Patronus</u>
 Oriental Zodiac Patronus is a CLI application written in Ruby, which could be easily run on the command line. The whole program can be downloaded from GitHub (https://github.com/EllieChen-Git/terminal_app).
 
-Users has the flexibility to receive a customised welcome message if they choose to enter their name when they try to run Oriental Zodiac Patronus in the terminal, e.g. 'ruby index.rb <strong>user</strong>'. Alternatively, a generic 'hi' message will display if there is no specific username input. 
+Users has the flexibility to receive a customised welcome message if they choose to enter their name when they try to run Oriental Zodiac Patronus in the terminal, e.g. 'ruby index.rb <strong>username</strong>'. Alternatively, a generic 'hi' message will display if there is no specific username input. 
 
 #### <u>Dependencies required by Oriental Zodiac Patronus</u>
 Before you start running Oriental Zodiac Patronus, you may wish to install Ruby Gems 'colorize' and 'artii' for better user experience. This can be simply done by enter 'gem install colorize' and 'gem install artii' on your command line.
