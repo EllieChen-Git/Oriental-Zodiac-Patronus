@@ -79,15 +79,15 @@ If users choose option 3, the program will ask them for their Chinese zodiac ani
 
 # Control Flow Diagram
 
-The below diagram can also be found on GitHub: [Oriental Zodiac Patronus - Control Flow Diagram](https://github.com/EllieChen-Git/terminal_app/blob/master/control_flow_diagram.JPG)
+The below diagram can also be found on GitHub: [Oriental Zodiac Patronus - Control Flow Diagram](https://github.com/EllieChen-Git/terminal_app/blob/master/Ellie-Chen-T1A2-5-control-flow-diagram.JPG)
 
-![Control Flow Diagram](control_flow_diagram.JPG)
+![Control Flow Diagram](Ellie-Chen-T1A2-5-control-flow-diagram.JPG)
 
 
 ------
 # Implementation Plan
 
-The complete document with <strong>daily Trello screenshots (project managment process)</strong> can be found on GitHub: [Oriental Zodiac Patronus - Implementation Plan](https://github.com/EllieChen-Git/terminal_app/blob/master/implementation_plan.docx)
+The complete document with <strong>daily Trello screenshots (project managment process)</strong> can be found on GitHub: [Oriental Zodiac Patronus - Implementation Plan](https://github.com/EllieChen-Git/terminal_app/blob/master/Ellie-Chen-T1A2-6-implementation-plan.docx)
 
 Also refer to <strong>Trello board</strong> for <strong>deadlines</strong> of each checklist items: [Oriental Zodiac Patronus - Trello board](https://trello.com/b/0OZdEWPF/oriental-zodiac-patronus)
 
@@ -131,6 +131,6 @@ My goal today was to complete help file, spelling check and slides for presentat
 
 # Application Testing
 
-The complete testing procedure and cases can be found on GitHub: [Oriental Zodiac Patronus - Application Testing](https://github.com/EllieChen-Git/terminal_app/blob/master/manual_testing_log.xlsx)
+The complete testing procedure and cases can be found on GitHub: [Oriental Zodiac Patronus - Application Testing](https://github.com/EllieChen-Git/terminal_app/blob/master/Ellie-Chen-T1A2-12-manual-testing-log.xlsx)
 
 Ellie Chen @2019
